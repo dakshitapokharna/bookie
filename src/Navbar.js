@@ -1,13 +1,25 @@
 const Navbar = () => {
   return (
     <div class="nav">
-      <a class="active" href="#home">
-        Home
-      </a>{" "}
-      <a>{""}</a>
-      <a href="#about">About</a> <a>{""}</a>
-      <a href="#recommendations">Our Recommendations</a> <a>{""}</a>
-      <a href="#contact">Contact Us</a> <a>{""}</a>
+      <ul>
+        <li>
+          <a href="#home">Home</a>{" "}
+        </li>
+        <li>
+          {" "}
+          <a href="#best selling" id="home">
+            Best selling
+          </a>{" "}
+        </li>
+        <li>
+          {" "}
+          <a href="#reviews">Review</a>{" "}
+        </li>
+        <li>
+          {" "}
+          <a href="#contact">Contact </a>{" "}
+        </li>
+      </ul>
     </div>
   );
 };
