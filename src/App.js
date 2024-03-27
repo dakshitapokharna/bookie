@@ -5,7 +5,7 @@ import About from "./About";
 import Contact from "./Contact";
 import recomend from "./recomend";
 import Copyright from "./Copyright";
-
+import Review from "./Review";
 function App() {
   return (
     <div className="App">
@@ -13,13 +13,9 @@ function App() {
       {/* <TOP /> */}
       <About />
       <recomend />
+      <Review/>
       <Contact />
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      
       <Copyright />
     </div>
   );
