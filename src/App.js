@@ -1,21 +1,21 @@
-import Navbar from "./Navbar";
-import "./App.css";
-import TOP from "./TOP";
-import About from "./About";
-import Contact from "./Contact";
-import recomend from "./recomend";
-import Copyright from "./Copyright";
-import Review from "./Review";
+import Navbar from './Navbar';
+import './App.css';
+import About from'./About'
+import Contact from './Contact';
+import Copyright from './Copyright';
+import Bestsellers from "./Bestsellers";
+import Ourcollection2 from "./Ourcollection2";
+import './footer.css';
+import './'
 function App() {
   return (
     <div className="App">
       <Navbar />
       {/* <TOP /> */}
       <About />
-      <recomend />
-      <Review/>
+      <Ourcollection2/>
+      <Bestsellers/>
       <Contact />
-      
       <Copyright />
     </div>
   );

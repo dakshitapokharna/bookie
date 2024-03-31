@@ -4,7 +4,7 @@ const details = () => {
         <h3>Contact Us</h3>
 
 <div class="container">
-  <form action="/action_page.php">
+
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name" />
 
@@ -16,7 +16,7 @@ const details = () => {
     <input type="text" id="number" name="number" placeholder="Your contact  number" />
  
     <input type="submit" value="Submit" />
-  </form>
+
 </div>
 </div>
          );

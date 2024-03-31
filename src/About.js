@@ -1,11 +1,15 @@
 const About = () => {
   return (
-    <div>
+    <div className="container2">
       <img
-        src="https://images.unsplash.com/photo-1474291102916-622af5ff18bb?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        width="100%vw"
-        height="710"
+        src="https://motionarray.imgix.net/preview-736491-xt36ePQvnliK9iU2-large.jpg?w=1400&q=60&fit=max&auto=format" alt="book"
+        width="100%"
+        height="510"
       ></img>
+      <div class="centered">
+        “Reading is essential for those who seek to rise above the ordinary.” -
+        Jim Rohn
+      </div>
     </div>
   );
 };
