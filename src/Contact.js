@@ -1,6 +1,8 @@
 const details = () => {
     return (
-        <div>\
+     <section id="contact" >
+
+        <div >
         <h3>Contact Us</h3>
 
 <div class="container">
@@ -19,6 +21,7 @@ const details = () => {
 
 </div>
 </div>
+</section>
          );
 }
  

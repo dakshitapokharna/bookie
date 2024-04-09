@@ -1,30 +1,21 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Cards from "./Cards";
+import Ourcollection from "./Ourcollection";
 
 const Bestsellers = () => {
-  const [booksBS, setBooksBS] = useState(null);
-//   useEffect(() => {
-//     fetch("http://localhost:8000/bestsellers")
-//       .then((res) => {
-//         return res.json();
-//       })
-
-//       .then((data) => {
-//         console.log(data);
-//         setBooksBS(data);
-//       });
-//   }, []);
   return (
-    <div className="Bestsellers" id="Bestsellers">
-      <h2 className="headingbestsellers">Bestsellers</h2>
-      {booksBS && (
-        <div className="bestsellersparent">
+    <section id="best selling">
+      <div className="Ourcollectionss" id="collection">
+        <div className="collection">
           {" "}
-          <Cards booksBS={booksBS} />{" "}
+          <h2>Bestsellers</h2>
+          <div className="Ourcollection">
+            <Cards booksBS={Ourcollection} />
+          </div>
         </div>
-      )}
-    </div>
+      </div>
+    </section>
   );
 };
 

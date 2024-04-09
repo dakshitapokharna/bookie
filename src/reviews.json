@@ -1,0 +1,16 @@
+{
+  "reviews": [
+    {
+      "name": "ABC",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet arcu vel ullamcorper venenatis."
+    },
+    {
+      "name": "ABC",
+      "description": "Nullam sit amet nisi vel sem volutpat interdum. Proin tempor, sapien sit amet molestie pulvinar, lectus purus finibus metus."
+    },
+    {
+      "name": "ABC",
+          "description": "Fusce auctor vehicula velit, non euismod nunc lacinia non. Vivamus scelerisque dui vel nisi semper, a elementum turpis fermentum."
+    }
+  ]
+}

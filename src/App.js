@@ -7,6 +7,7 @@ import Bestsellers from "./Bestsellers";
 import Ourcollection2 from "./Ourcollection2";
 import './footer.css';
 import './'
+import Review from './Review';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Ourcollection2/>
       <Bestsellers/>
+      <Review/>
       <Contact />
       <Copyright />
     </div>
