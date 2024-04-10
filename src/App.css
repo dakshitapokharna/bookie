@@ -153,8 +153,10 @@ input[type="submit"]:hover {
 h2{
   text-align: center;
 }
-/* .icons{
-display: inline;
-float: right;
+.home{
+  font-family: cursive;
+}
 
-} */
+*smooth-behaviour{
+  scroll-behavior: smooth;
+}

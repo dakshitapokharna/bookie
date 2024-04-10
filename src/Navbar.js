@@ -3,7 +3,9 @@ const Navbar = () => {
     <div class="nav">
       <ul>
         <li className="home">
-          <a href="#home">Home</a>{" "}
+          <a href="#home">
+          Bookie{" "}
+          </a>{" "}
         </li>
         <li>
           {" "}

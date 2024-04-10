@@ -1,19 +1,6 @@
 import React from "react";
-import { useState } from "react";
 const Cards = ({ booksBS }) => {
-  const [image, setImage] = useState(
-    "https://www.pngitem.com/pimgs/m/527-5277906_white-heart-vector-png-transparent-png.png"
-  );
-
-  function imagechange() {
-    setImage(
-      "https://tse2.mm.bing.net/th?id=OIP.3sJ3uS_HeV1tERAYeFy12QHaHa&pid=Api&P=0&h=180"
-    );
-  }
-
-  const cart =
-    "https://th.bing.com/th/id/OIP.0B9qUkgn0IAUO6e2pP0pYQHaHa?rs=1&pid=ImgDetMain";
-
+ 
   return booksBS.map((book) => (
     <div className="card" key={book.id}>
       <img src={book.image} alt="book cover" className="bookcover" />
